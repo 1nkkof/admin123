@@ -15,12 +15,12 @@ if($result = $connect->query($sql)){
     }
   
 }
-if(isset($_POST['sumbit'])){
+// if(isset($_POST['sumbit'])){
   
-    $status = $_POST['status'];
-    $query = "UPDATE `bd_connect` set status = '$status' WHERE bd_connect.id=$userid";
-    $connect->query($query);
-}
+//     $status = $_POST['status'];
+//     $query = "UPDATE `bd_connect` set status = '$status' WHERE bd_connect.id=$userid";
+//     $connect->query($query);
+// }
 
 
 

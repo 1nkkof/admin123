@@ -14,10 +14,10 @@ include("./vendor/connect.php");
     <title>обновление</title>
 </head>
 <body>
-  
+
 
  <h3>Обновление пользователя</h3>
-  <form action = '/adminPage.php' method='post'>
+  <form action = '/info.php' method='post'>
   <p>бан :
       <input type='text' name='status' required />
       
